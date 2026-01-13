@@ -1,10 +1,14 @@
- {
+{
   "name": "ai-playground-v2",
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts":{
+    "dev": "bun run index.ts"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "concurrently": "^9.2.1"
   },
   "peerDependencies": {
     "typescript": "^5"
@@ -13,3 +17,4 @@
     "packages/*"
   ]
 }
+ 
